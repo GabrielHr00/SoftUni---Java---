@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="28" Column="9" />
       <File FileName="Assets/Scripts/WaypointFollower.cs" Line="21" Column="14" />
-      <File FileName="Assets/Scripts/StickyPlatform.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StickyPlatform.cs" Line="21" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
