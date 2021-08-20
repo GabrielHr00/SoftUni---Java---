@@ -57,6 +57,8 @@
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/WaypointFollower.cs" />
     <Compile Include="Assets/Scripts/PlayerLife.cs" />
+    <Compile Include="Assets/Scripts/Rotate.cs" />
+    <Compile Include="Assets/Scripts/ItemCollector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
