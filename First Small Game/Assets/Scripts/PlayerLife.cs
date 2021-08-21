@@ -7,6 +7,8 @@ public class PlayerLife : MonoBehaviour
 {
     bool isDead = false;
 
+    [SerializeField] AudioSource deathSound;
+
     private void Update()
     {
         if (transform.position.y < -1f && !isDead)
@@ -30,6 +32,7 @@ public class PlayerLife : MonoBehaviour
     {
         Invoke(nameof(ReloadLevel), 0.5f);
         isDead = true;
+        deathSound.Play();
     }
 
     void ReloadLevel()
