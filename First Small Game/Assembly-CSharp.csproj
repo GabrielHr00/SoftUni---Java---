@@ -53,12 +53,12 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/StickyPlatform.cs" />
-    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
-    <Compile Include="Assets/Scripts/WaypointFollower.cs" />
     <Compile Include="Assets/Scripts/PlayerLife.cs" />
+    <Compile Include="Assets/Scripts/StickyPlatform.cs" />
     <Compile Include="Assets/Scripts/Rotate.cs" />
     <Compile Include="Assets/Scripts/ItemCollector.cs" />
+    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/WaypointFollower.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

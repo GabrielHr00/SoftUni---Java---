@@ -8,6 +8,8 @@ public class ItemCollector : MonoBehaviour
     int counterCoins = 0;
     [SerializeField] Text coinsText;
 
+    [SerializeField] AudioSource soundCollecting;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Coin"))
@@ -15,6 +17,7 @@ public class ItemCollector : MonoBehaviour
             Destroy(other.gameObject);
             counterCoins++;
             coinsText.text = "Coins: " + counterCoins;
+            soundCollecting.Play();
         }
     }
 }

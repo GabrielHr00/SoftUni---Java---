@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
 
+    [SerializeField] AudioSource jumpSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     void Jump()
     {
         rigit.velocity = new Vector3(rigit.velocity.x, jumpForce, rigit.velocity.z);
+        jumpSound.Play();
 
     }
 
