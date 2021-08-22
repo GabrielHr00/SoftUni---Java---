@@ -61,6 +61,7 @@
     <Compile Include="Assets/Scripts/WaypointFollower.cs" />
     <Compile Include="Assets/Scripts/Finish.cs" />
     <Compile Include="Assets/Scripts/StartMenu.cs" />
+    <Compile Include="Assets/Scripts/EndMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
